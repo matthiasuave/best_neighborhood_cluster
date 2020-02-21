@@ -1,0 +1,13 @@
+THE BATTLE OF NEIGHBORHOODS
+1.	Introduction
+1.1	Problem Statement:
+My client is looking for the best location to open a restaurant in the beautiful and peaceful city of Mississauga, Ontario, Canada. Due the different types of buildings and amenities in the different neighborhoods within the city, my client wants to get a favourable location that will be best suited for his restaurant business. In getting this suitable location, I will be considering the amenities within different neighborhood and places where competitors are located within such neighborhood. This is aimed at maximizing profit for my client
+ 
+1.2	Background:
+Before now, my client has opened 4 different restaurants at different locations within Mississauga but realized he has always either been outsmarted by bigger competitors or opened a restaurant in at a location that does not attract customers. He then approached me to see if there is a way I can use some machine learning algorithm that can help him in making informed decision as to the best location to open his next restaurant.
+
+2.	Data
+I will be fetching my data by using BeautifulSoup to scrape the Wikipedia page for Canada’s postal codes and their neighborhoods: (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_L). With the postal codes for each neighborhood in Mississauga, I will then use geocoder to fetch the latitude and longitude of these postal codes.
+The next step will be to use Foursquare to explore the venues in Mississauga and cluster the neighborhoods based on the categories of these venues using an unsupervised machine learning algorithm known as k-means. From these clusters I will be able to tell my client which neighborhoods will be best suited to open his next restaurant where he can attract more customers and perform better than his competitors. This will eventually lead to maximized profit.
+
+
